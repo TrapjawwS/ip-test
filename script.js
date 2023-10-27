@@ -1,15 +1,9 @@
-if (gfg == "12.38.208.90") {
-    <body>
-	<center>
-		<h1>Hi</h1>
-		<h3>Public IP Address of user is:</h3>
-		<p id="gfg"></p>
-	</center>
-</body>
+<script>
+    if (ip == "12.38.208.90") {
+        <p>hi</p>
 
-} else {
-    <body>
+    } else {
         <p>Invalid access</p>
-    </body>
-}
+    }
 
+</script>
