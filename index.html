@@ -24,12 +24,12 @@
 	$.getJSON("https://api.ipify.org?format=json", function(data) {
 		
 		// Setting text of element P with id gfg
-		$("#gfg").html(data.ip);
+		var ip = html(data.ip);
 	})
 	</script>
 
     <script>
-        if (gfg == "12.38.208.90") {
+        if (ip == "12.38.208.90") {
         <body>
         <center>
             <h1>Hi</h1>
