@@ -23,21 +23,20 @@
 				
 	$.getJSON("https://api.ipify.org?format=json", function(data) {
 		
-		// Setting text of element P with id gfg
-		$("#gfg").html(data.ip);
-        var address = id="gfg"
+		// Setting text of element P
+        if (data.ip == "12.38.208.90") {
+            let element = document.createElement("p");
+			element.innerText = "hi";
+			document.body.appendChild(element);
+        } else {
+            <p>Invalid access</p>
+        }
+
 	})
 	</script>
 </head>
 <body>
     <script>
-        if (address == "12.38.208.90") {
-            <p>hi</p>
-
-        } else {
-            <p>Invalid access</p>
-        }
-
     </script>
 </body>
 </html>
