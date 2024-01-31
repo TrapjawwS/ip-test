@@ -26,7 +26,8 @@
 		// Setting text of element P
         if (data.ip == "12.38.208.90") {
             let element = document.createElement("p");
-			element.innerText = "hi";
+			document.getElementById("ipadress").innerHTML = data.ip
+			element.innerText = "hi your ip is " + 'ipadress';
 			document.body.appendChild(element);
         } else {
             let element = document.createElement("p");
